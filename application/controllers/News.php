@@ -48,7 +48,7 @@ class News extends CI_Controller {
         $this->load->view('news/create', $data);
         $this->load->view('templates/footer', $data);
 	}
-    }
+    
     else
     {
         $this->news_model->set_news();
